@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loopstudios</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     About Careers Events Products Support Immersive experiences that deliver The
@@ -15,5 +20,17 @@
     earth Night arcade Soccer team VR The grid From up above VR Pocket borealis
     The curiosity Make it fisheye About Careers Events Products Support &copy;
     2021 Loopstudios. All rights reserved.
+    <picture>
+      <source
+        media="(min-width: 650px)"
+        srcset="images/desktop/image-grid.jpg"
+      />
+      <source
+        media="(min-width: 465px)"
+        srcset="images/mobile/image-grid.jpg"
+      />
+      <!-- fallback for unsuportive browsers -->
+      <img src="images/desktop/image-grid.jpg" alt="grid image" />
+    </picture>
   </body>
 </html>
